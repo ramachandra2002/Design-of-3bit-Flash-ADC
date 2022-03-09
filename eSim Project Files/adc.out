@@ -1,0 +1,32 @@
+
+No compatibility mode selected!
+
+Warning: Unusual leading characters like ')' or others out of '= [] ? () & % $"!:,;\f'
+    in netlist or included files, will be replaced with '*'.
+    Check line no 6:  )
+
+
+Circuit: * /home/ramachandra14519/esim-workspace/adc/adc.cir
+
+Error on line 27 :
+  a1 [net-_u2-pad1_ net-_u2-pad2_ net-_u2-pad3_ net-_u2-pad4_ net-_u2-pad5_ net-_u2-pad6_ net-_u2-pad7_ net-_u2-pad8_ ] [net-_u2-pad9_ net-_u2-pad10_ net-_u2-pad11_ ] u2
+ MIF-ERROR - unable to find definition of model u2
+    Simulation interrupted due to error!
+
+Error: circuit not parsed.
+
+Note: no resource usage information for 'time',
+	or no active circuit available
+
+Total CPU time (seconds) = 0.011 
+
+Total DRAM available = 257855.305 MB.
+DRAM currently available = 238856.914 MB.
+Maximum ngspice program size =   88.801 MB.
+Current ngspice program size =   11.062 MB.
+
+Shared ngspice pages =    9.254 MB.
+Text (code) pages =    6.285 MB.
+Stack = 0 bytes.
+Library pages =    2.445 MB.
+

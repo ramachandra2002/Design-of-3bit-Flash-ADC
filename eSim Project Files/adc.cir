@@ -1,0 +1,33 @@
+* /home/ramachandra14519/eSim-Workspace/adc/adc.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Thu 03 Mar 2022 05:01:33 AM UTC
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+U2  Net-_U2-Pad1_ Net-_U2-Pad2_ Net-_U2-Pad3_ Net-_U2-Pad4_ Net-_U2-Pad5_ Net-_U2-Pad6_ Net-_U2-Pad7_ Net-_U2-Pad8_ Net-_U2-Pad9_ Net-_U2-Pad10_ Net-_U2-Pad11_ prior		
+U3  Net-_U3-Pad1_ Net-_U3-Pad2_ Net-_U3-Pad3_ Net-_U3-Pad4_ Net-_U3-Pad5_ Net-_U3-Pad6_ Net-_U3-Pad7_ GND Net-_U2-Pad1_ Net-_U2-Pad2_ Net-_U2-Pad3_ Net-_U2-Pad4_ Net-_U2-Pad5_ Net-_U2-Pad6_ Net-_U2-Pad7_ Net-_U2-Pad8_ adc_bridge_8		
+U4  Net-_U2-Pad9_ Net-_U2-Pad10_ Net-_U2-Pad11_ b2 b1 b0 dac_bridge_3		
+R4  Net-_R3-Pad2_ Net-_R4-Pad2_ 1k		
+R5  Net-_R4-Pad2_ Net-_R5-Pad2_ 1k		
+R3  Net-_R2-Pad2_ Net-_R3-Pad2_ 1k		
+R2  +8V Net-_R2-Pad2_ 1k		
+R6  Net-_R5-Pad2_ Net-_R6-Pad2_ 1k		
+R7  Net-_R6-Pad2_ Net-_R7-Pad2_ 1k		
+R8  Net-_R7-Pad2_ Net-_R8-Pad2_ 1k		
+X2  ? Net-_R3-Pad2_ in -5V ? Net-_U3-Pad2_ +5V ? lm_741		
+X3  ? Net-_R4-Pad2_ in -5V ? Net-_U3-Pad3_ +5V ? lm_741		
+X4  ? Net-_R5-Pad2_ in -5V ? Net-_U3-Pad4_ +5V ? lm_741		
+X5  ? Net-_R6-Pad2_ in -5V ? Net-_U3-Pad5_ +5V ? lm_741		
+X7  ? Net-_R8-Pad2_ in -5V ? Net-_U3-Pad7_ +5V ? lm_741		
+R9  Net-_R8-Pad2_ GND 1k		
+X6  ? Net-_R7-Pad2_ in -5V ? Net-_U3-Pad6_ +5V ? lm_741		
+v1  in GND sine		
+U1  in plot_v1		
+U7  b2 plot_v1		
+U6  b1 plot_v1		
+U5  b0 plot_v1		
+X1  ? Net-_R2-Pad2_ in -5V ? Net-_U3-Pad1_ +5V ? lm_741		
+
+.end
