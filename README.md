@@ -16,7 +16,7 @@ This repository contains the design of 3-bit flash ADC which was created as part
 - [Author](#author)
 - [Acknowledgements](#acknowledgements)
 - [References](#references)
-- 
+
 # Abstract
 
 This study presents a 3-bit Flash Analog to Digital Converter for low-power integrated circuits and system applications, which will be implemented using the ngspice and verilog programming languages. The circuit design, implementation and analysis will be done using FOSSEE’s eSim software. he 3-bit Flash ADC is designed using comparator and a priority encoder to facilitate the conversion of analog to digital signals. This 3-bit Flash ADC can be used in the design of large integrated circuits which has many digital decoding functions.
