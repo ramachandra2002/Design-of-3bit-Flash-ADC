@@ -18,7 +18,7 @@ In the Flash ADC, the voltage divider circuit is a basic network of series resis
 
 The comparator circuit is used to compare the inputs with the Vref reference voltage and the voltage divider inputs. We use a basic opamp to compare the voltages in the comparator circuit. The output voltage will be Vcc if the voltage Vin is higher than Vref. The output voltage will be -Vcc if the voltage Vin is less than Vref.
 
-The encoding of 2^^N inputs to N outputs is performed by an encoder, which is a type of combinational circuit. When numerous inputs are high at the same time, this basic encoder has a difficulty. The priority encoder is used to solve this problem. The output of Priority Encoder is based on the highest priority input. We'll utilise an 8 x 3 priority encoder as the encoding circuit in this circuit. We'll use ngspice and verilog software to build a 3-bit Flash ADC circuit and test it with the waveform received as an output.
+The encoding of 2<sup>N</sup> inputs to N outputs is performed by an encoder, which is a type of combinational circuit. When numerous inputs are high at the same time, this basic encoder has a difficulty. The priority encoder is used to solve this problem. The output of Priority Encoder is based on the highest priority input. We'll utilise an 8 x 3 priority encoder as the encoding circuit in this circuit. We'll use ngspice and verilog software to build a 3-bit Flash ADC circuit and test it with the waveform received as an output.
 
 
 
